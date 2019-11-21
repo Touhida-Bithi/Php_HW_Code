@@ -1,0 +1,16 @@
+When you are writing scripts, you will often need to see exactly what is inside your variables. For this PHP exercise, think of the ways you can do that, then write a script that outputs the following, using the echo statement only for line breaks.
+string(5) "Harry"Harryint(28)NULL
+
+
+Code:
+
+	<?php
+	
+		$i = 28;
+		var_dump($i);
+		$y = "Harry";
+		var_dump($y);
+		$x = null;
+		var_dump($x);
+		 
+	?>
