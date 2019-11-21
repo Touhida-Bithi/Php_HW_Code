@@ -1,0 +1,14 @@
+For your first PHP exercise, echo the following statement to the browser:
+“Twinkle, Twinkle little star.”
+Next, create two variables, one for the word “Twinkle” and one for the word “star”. Echo the statement to the browser, this time substituting the variables for the relevant words. Change the value of each variable to whatever you like, and echo the statement a third time. Remember to include code to show your statements on different lines.
+
+
+
+<?php
+	print "Twinkle,twinkle little star <br>";
+	$v1 ="Twinkle";
+	$v2="Twinkle";
+	$v3="little star";
+	echo "$v1 $v2 $v3<br>";
+	echo "This ", "string ", "was ", "made ", "with multiple parameters.";
+	?>
